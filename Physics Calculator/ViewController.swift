@@ -21,11 +21,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
-    {
-        let dvc = segue.destination as! SecondViewController
-        dvc.equation1 = self.equation1
-    }
 
     override func didReceiveMemoryWarning()
     {
@@ -43,7 +38,9 @@ class ViewController: UIViewController {
             equation1.velocity = Double(displayVelocity.text!)!
             equation1.time = Double(displayTime.text!)!
             equation1.acceleration = Double(displayAcceleration.text!)!
+            dvc.equation1 = self.equation1
             self.present(dvc, animated: true, completion: nil)
+            
         }
         
     }

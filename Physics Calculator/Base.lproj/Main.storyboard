@@ -177,13 +177,33 @@
                                     <constraint firstAttribute="height" constant="667" id="i46-i2-85v"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45i-qX-cH7">
+                                <rect key="frame" x="53" y="274" width="268" height="119"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="119" id="Osd-wN-EPt"/>
+                                    <constraint firstAttribute="width" constant="268" id="wtx-gp-6cj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="oKI-Cg-Ryc" firstAttribute="top" secondItem="UAI-Du-LDA" secondAttribute="bottom" id="44A-vw-DSJ"/>
+                            <constraint firstItem="UAI-Du-LDA" firstAttribute="top" secondItem="NLb-K4-yRP" secondAttribute="top" id="67s-ge-gsh"/>
                             <constraint firstItem="UAI-Du-LDA" firstAttribute="centerX" secondItem="NLb-K4-yRP" secondAttribute="centerX" id="AfM-yN-l9D"/>
+                            <constraint firstItem="45i-qX-cH7" firstAttribute="centerY" secondItem="NLb-K4-yRP" secondAttribute="centerY" id="HPa-qF-iYH"/>
+                            <constraint firstItem="UAI-Du-LDA" firstAttribute="leading" secondItem="NLb-K4-yRP" secondAttribute="leading" id="TkF-uY-0eK"/>
+                            <constraint firstAttribute="trailing" secondItem="UAI-Du-LDA" secondAttribute="trailing" id="Xa7-z1-Ndb"/>
                             <constraint firstItem="UAI-Du-LDA" firstAttribute="centerY" secondItem="NLb-K4-yRP" secondAttribute="centerY" id="dim-Sk-2lA"/>
+                            <constraint firstItem="45i-qX-cH7" firstAttribute="centerX" secondItem="NLb-K4-yRP" secondAttribute="centerX" id="nhV-US-g10"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="showAnswer" destination="45i-qX-cH7" id="UbB-hu-L5j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2q1-2q-sDT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
