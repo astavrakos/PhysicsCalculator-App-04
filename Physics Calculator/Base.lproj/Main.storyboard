@@ -55,6 +55,9 @@
                                 <state key="normal" title="Calculate for Δx">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onCalcTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L70-t9-NTe"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X29-P2-Zxc">
                                 <rect key="frame" x="16" y="203" width="97" height="30"/>
@@ -64,7 +67,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lis-AN-VsP">
                                 <rect key="frame" x="139" y="203" width="97" height="30"/>
@@ -74,7 +77,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m4c-dS-Yz3">
                                 <rect key="frame" x="260" y="203" width="97" height="30"/>
@@ -84,7 +87,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUh-cA-LAj">
                                 <rect key="frame" x="51" y="169" width="27" height="21"/>
@@ -145,10 +148,33 @@
                             <constraint firstItem="Zzc-xS-05i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zSd-nQ-kfD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="displayAcceleration" destination="m4c-dS-Yz3" id="xCk-jL-oV5"/>
+                        <outlet property="displayTime" destination="lis-AN-VsP" id="eGw-sh-0Ge"/>
+                        <outlet property="displayVelocity" destination="X29-P2-Zxc" id="pGZ-Mm-42Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kOy-kA-4wf">
+            <objects>
+                <viewController id="vaU-rk-GFO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gwM-ik-WtK"/>
+                        <viewControllerLayoutGuide type="bottom" id="oKI-Cg-Ryc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NLb-K4-yRP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2q1-2q-sDT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847" y="137"/>
         </scene>
     </scenes>
     <resources>

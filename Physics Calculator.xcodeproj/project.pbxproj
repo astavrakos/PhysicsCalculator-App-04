@@ -14,6 +14,7 @@
 		63C22EF01F06CCF2005EFE87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C22EEE1F06CCF2005EFE87 /* LaunchScreen.storyboard */; };
 		63C22EFB1F06CCF2005EFE87 /* Physics_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C22EFA1F06CCF2005EFE87 /* Physics_CalculatorTests.swift */; };
 		63C22F061F06CCF2005EFE87 /* Physics_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C22F051F06CCF2005EFE87 /* Physics_CalculatorUITests.swift */; };
+		63C22F141F06D4A3005EFE87 /* Kinematic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C22F131F06D4A3005EFE87 /* Kinematic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		63C22F011F06CCF2005EFE87 /* Physics CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physics CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C22F051F06CCF2005EFE87 /* Physics_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics_CalculatorUITests.swift; sourceTree = "<group>"; };
 		63C22F071F06CCF2005EFE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C22F131F06D4A3005EFE87 /* Kinematic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kinematic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				63C22EE51F06CCF2005EFE87 /* AppDelegate.swift */,
 				63C22EE71F06CCF2005EFE87 /* ViewController.swift */,
 				63C22EE91F06CCF2005EFE87 /* Main.storyboard */,
+				63C22F131F06D4A3005EFE87 /* Kinematic.swift */,
 				63C22EEC1F06CCF2005EFE87 /* Assets.xcassets */,
 				63C22EEE1F06CCF2005EFE87 /* LaunchScreen.storyboard */,
 				63C22EF11F06CCF2005EFE87 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				63C22EE81F06CCF2005EFE87 /* ViewController.swift in Sources */,
 				63C22EE61F06CCF2005EFE87 /* AppDelegate.swift in Sources */,
+				63C22F141F06D4A3005EFE87 /* Kinematic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

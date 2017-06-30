@@ -10,16 +10,33 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var displayVelocity: UITextField!
+    @IBOutlet weak var displayTime: UITextField!
+    @IBOutlet weak var displayAcceleration: UITextField!
+    
+    var equation1 = Kinematic()
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func onCalcTapped(_ sender: Any)
+    {
+        if(displayVelocity.text != "" &&
+            displayTime.text != "" &&
+            displayAcceleration.text != "")
+        {
+            equation1.velocity = Double(displayVelocity.text!)!
+            equation1.time = Double(displayTime.text!)!
+            equation1.acceleration = Double(displayAcceleration.text!)!
+        }
+    }
+    
 }
 
