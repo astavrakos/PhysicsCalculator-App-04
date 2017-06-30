@@ -15,6 +15,7 @@
 		63C22EFB1F06CCF2005EFE87 /* Physics_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C22EFA1F06CCF2005EFE87 /* Physics_CalculatorTests.swift */; };
 		63C22F061F06CCF2005EFE87 /* Physics_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C22F051F06CCF2005EFE87 /* Physics_CalculatorUITests.swift */; };
 		63C22F141F06D4A3005EFE87 /* Kinematic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C22F131F06D4A3005EFE87 /* Kinematic.swift */; };
+		63C22F161F06D945005EFE87 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C22F151F06D945005EFE87 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		63C22F051F06CCF2005EFE87 /* Physics_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics_CalculatorUITests.swift; sourceTree = "<group>"; };
 		63C22F071F06CCF2005EFE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C22F131F06D4A3005EFE87 /* Kinematic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kinematic.swift; sourceTree = "<group>"; };
+		63C22F151F06D945005EFE87 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				63C22EE51F06CCF2005EFE87 /* AppDelegate.swift */,
 				63C22EE71F06CCF2005EFE87 /* ViewController.swift */,
+				63C22F151F06D945005EFE87 /* SecondViewController.swift */,
 				63C22EE91F06CCF2005EFE87 /* Main.storyboard */,
 				63C22F131F06D4A3005EFE87 /* Kinematic.swift */,
 				63C22EEC1F06CCF2005EFE87 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C22F161F06D945005EFE87 /* SecondViewController.swift in Sources */,
 				63C22EE81F06CCF2005EFE87 /* ViewController.swift in Sources */,
 				63C22EE61F06CCF2005EFE87 /* AppDelegate.swift in Sources */,
 				63C22F141F06D4A3005EFE87 /* Kinematic.swift in Sources */,
