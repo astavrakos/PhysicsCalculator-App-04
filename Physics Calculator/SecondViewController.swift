@@ -17,7 +17,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        showAnswer.text = String(calcAnswer(entry: equation1))
+        showAnswer.text = String(calcAnswer(entry: equation1)) + " meters"
     
     }
     

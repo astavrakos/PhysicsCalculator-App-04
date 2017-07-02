@@ -9,6 +9,7 @@
 import UIKit
 
 class Kinematic: NSObject {
+    
     var velocity: Double = 0.00
     var time: Double = 0.00
     var acceleration: Double = 0.00
